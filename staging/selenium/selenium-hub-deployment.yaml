@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: selenium-hub
-        image: selenium/hub:4.0
+        image: nexus.dtc.prod.williamhill.plc/bonusplatform/selenium-hub:4.2.2
         ports:
           - containerPort: 4444
           - containerPort: 4443
